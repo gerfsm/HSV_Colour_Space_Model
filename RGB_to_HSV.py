@@ -4,8 +4,8 @@ import os
 import cv2
 
 
-RGB_img = 'C:/Users/Germano Moreira/Desktop/Histograma/ROIs'
-HSV_img = 'C:/Users/Germano Moreira/Desktop/Histograma/HSV_images'
+RGB_img = 'Path to the folder with the original images'
+HSV_img = 'Path to the folder where we will save the HSV images'
 
 images = os.listdir(RGB_img)
 
