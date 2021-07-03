@@ -4,14 +4,11 @@
 import os
 from PIL import Image
 
-# Path to the folder where we will save the segmented images
-ROIs = 'C:/Users/Germano Moreira/Desktop/Histograma/ROIs'
+ROIs = 'Path to the folder where we will save the segmented images'
 
-# Path to the folder where we have the original images
-img_folder = 'C:/Users/Germano Moreira/Desktop/Histograma/Img'
+img_folder = 'Path to the folder where we have the original images'
 
-# Path to the folder where we have the annotations (txt) of the original images
-ann_folder = 'C:/Users/Germano Moreira/Desktop/Histograma/Ann'
+ann_folder = 'Path to the folder where we have the annotations (txt) of the original images'
 
 images = os.listdir(img_folder)
 annotations = os.listdir(ann_folder)
