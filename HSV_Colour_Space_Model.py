@@ -12,16 +12,16 @@ from sklearn import mixture
 import scipy.stats as stats
 
 #Path to save Rois
-ROIs = 'C:/Users/Germano Moreira/Desktop/Modelo_Histogramas/New_Rois'
+ROIs = '____________________________________________________________'
 
 # Path to the folder where we will save the New Annotations
-New_annotation_folder = 'C:/Users/Germano Moreira/Desktop/Modelo_Histogramas/Model_Ann'
+New_annotation_folder = '___________________________________________'
 
 # Path to the folder where we have the original images
-img_folder = 'C:/Users/Germano Moreira/Desktop/Modelo_Histogramas/Img'
+img_folder = '______________________________________________________'
 
 # Path to the folder where we have the annotations (txt) of the original images
-ann_folder = 'C:/Users/Germano Moreira/Desktop/Modelo_Histogramas/Ann'
+ann_folder = '______________________________________________________'
 
 
 images = os.listdir(img_folder)
