@@ -11,7 +11,7 @@ import cv2 as cv
 from sklearn import mixture
 import scipy.stats as stats
 
-#Path to save Rois
+#Path to save RoIs
 ROIs = '____________________________________________________________'
 
 # Path to the folder where we will save the New Annotations
