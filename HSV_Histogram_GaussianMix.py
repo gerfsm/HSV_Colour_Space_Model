@@ -9,9 +9,9 @@ import cv2 as cv
 from sklearn import mixture
 import scipy.stats as stats
 
-ROIs = 'C:/Users/Germano Moreira/Desktop/Exp-HSVHistograms/Classes/Unriped/ROIs/tomates_2020-08-06-11-35-15_side_0077_592.jpg'
-Dist_Histograms = 'C:/Users/Germano Moreira/Desktop/Exp-HSVHistograms/Classes/Riped/Dist_Histograms'
-Boxplots = 'C:/Users/Germano Moreira/Desktop/Exp-HSVHistograms/Classes/Riped/Boxplots'
+ROIs = # Path to the segmented RoI's
+Dist_Histograms = # Path where we will save the HSV histograms with a Gaussian Mixture
+
 
             
 img = cv.imread(ROIs)
@@ -54,7 +54,7 @@ for c, p in zip(nbins, patches):
 plt.ylabel("Frequency")
 plt.xlabel("Pixel Intensity")
             
-plt.savefig('C:/Users/Germano Moreira/Desktop/Exp-HSVHistograms/Classes/Unriped/Dist_Histograms/tomates_2020-08-06-11-35-15_side_0077_592_Hist.jpg')
+plt.savefig('Dist_Histograms/.......')
 plt.show()
 
 
