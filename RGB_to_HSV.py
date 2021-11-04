@@ -4,8 +4,8 @@ import os
 import cv2
 
 
-RGB_img = 'C:/Users/Germano Moreira/Desktop/Exp-HSVHistograms/Real_Look/ROIs'
-HSV_img = 'C:/Users/Germano Moreira/Desktop/Exp-HSVHistograms/Real_Look/HSV_images'
+RGB_img = # Path to the RoI's segmented
+HSV_img = # Path where we will save the new HSV RoI
 
 images = os.listdir(RGB_img)
 
