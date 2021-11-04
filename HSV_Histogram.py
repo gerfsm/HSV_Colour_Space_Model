@@ -7,9 +7,9 @@ import matplotlib.cm as cm
 from scipy.stats import norm
 import cv2 as cv
 
-ROIs = 'C:/Users/Germano Moreira/Desktop/Exp-HSVHistograms/Classes/Breaking_Stage/ROIs/tomate_barroselas_20200806_0038_814.jpg'
-Dist_Histograms = 'C:/Users/Germano Moreira/Desktop/Exp-HSVHistograms/Classes/Riped/Dist_Histograms'
-Boxplots = 'C:/Users/Germano Moreira/Desktop/Exp-HSVHistograms/Classes/Riped/Boxplots'
+ROIs = # Path to the RBG RoI's
+Dist_Histograms = # Path where we will save the HSV Histograms 
+
 
             
 img = cv.imread(ROIs)
@@ -38,12 +38,9 @@ nbins = bins/256
 for c, p in zip(nbins, patches):
     plt.setp(p, 'facecolor', colour(c))
                 
-plt.savefig('C:/Users/Germano Moreira/Desktop/Exp-HSVHistograms/Classes/Breaking_Stage/Dist_Histograms/tomate_barroselas_20200806_0038_814_Hist.jpg')
+plt.savefig(# Path to save the histograms 'Dist_Histograms/.......')
 plt.show()
 
-plt.boxplot(h_new,vert=False)
-plt.savefig('C:/Users/Germano Moreira/Desktop/Exp-HSVHistograms/Classes/Breaking_Stage/Boxplots/tomate_barroselas_20200806_0038_814_Boxplot.jpg')
-plt.show()
-                 
+     
 
 
